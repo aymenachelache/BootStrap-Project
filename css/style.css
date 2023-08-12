@@ -1,0 +1,50 @@
+
+/* Sidebar */
+.sidebar {
+    width: 280px; 
+    height: 100vh;
+    transition: 0.3s;
+}
+.sidebar .show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sidebar .show:hover {
+    color: #0d6efd;
+}
+.small-sidebar {
+    width: 77px;
+}
+.small-sidebar .show i::before {
+    content: "\F134";
+}
+.show i::before {
+    content: "\F623";
+}
+.small-sidebar a {
+    justify-content: center;
+}
+.small-sidebar li a i {
+    margin-right: 0 !important;
+}
+.small-sidebar .sidebar-text {
+    display: none;
+}
+.small-sidebar .title-aside {
+    margin-right: 0 !important;
+}
+.small-sidebar .title-aside i {
+    margin-right: 0 !important;
+}
+.small-sidebar .bi-lightning-charge::before {
+    margin-right: -5px;
+    transition: 0.3s;
+    transform: rotateY(360deg);
+}
+.small-sidebar .bi-lightning-charge::before {
+    content: "\F46C";
+    transition: 1s;
+    transform: rotateY(360deg);
+}
